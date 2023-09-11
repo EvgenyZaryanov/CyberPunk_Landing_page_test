@@ -1,0 +1,11 @@
+.buy-game__details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 466px;
+  height: 169px;
+  margin: 0px auto 70px 32px;
+  padding-left: 0px;
+  list-style-type: none;
+  /* outline: 1px solid red; */
+}

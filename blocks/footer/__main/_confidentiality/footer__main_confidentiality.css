@@ -1,0 +1,13 @@
+.footer__main_confidentiality {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__main_confidentiality:hover {
+  text-decoration: underline;
+}

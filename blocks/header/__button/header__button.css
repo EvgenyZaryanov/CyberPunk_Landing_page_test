@@ -1,0 +1,30 @@
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 272px;
+  height: 78px;
+  margin: 0px 0px 70px 70px;
+  padding: 0px;
+  background: #000;
+}
+
+.header__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.header__button {
+  transition: transform 0.5s linear;
+}
+.header__button:hover {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 320px) {
+  .header__button {
+    width: 244px;
+    height: 60px;
+    margin: 0px 38px 30px 38px;
+  }
+}

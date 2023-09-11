@@ -1,0 +1,8 @@
+.footer__main {
+  max-width: 1280px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  /* outline: 1px solid red; */
+}

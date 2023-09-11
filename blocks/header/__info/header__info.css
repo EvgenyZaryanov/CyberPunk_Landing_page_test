@@ -1,0 +1,38 @@
+.header__info {
+  position: absolute;
+  width: 624px;
+  height: 369px;
+  padding: 0px;
+  background-color: rgba(248, 242, 0, 1);
+  z-index: 2;
+  align-self: end;
+  right: 320px;
+  clip-path: polygon(10% 0, 70% 0%, 100% 0, 100% 85%, 90% 100%, 0 100%, 0% 70%, 0 15%);
+  /* outline: 1px solid red; */
+}
+
+@media screen and (max-width: 1700px) {
+  .header__info {
+    right: 200px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .header__info {
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__info {
+    right: 36px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__info {
+    width: 320px;
+    height: 207px;
+    right: 0px;
+  }
+}

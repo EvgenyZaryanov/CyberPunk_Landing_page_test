@@ -1,0 +1,18 @@
+.description__cards_item-1 {
+  grid-row: 1;
+  grid-column: 1;
+  width: 100%;
+  object-fit: cover;
+  background-image: url(../../../../images/nightcity_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 320px) {
+  .description__cards_item-1 {
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+    clip-path: polygon(5% 0, 95% 0, 100% 10%, 100% 90%, 95% 100%, 5% 100%, 0 90%, 0 10%);
+  }
+}

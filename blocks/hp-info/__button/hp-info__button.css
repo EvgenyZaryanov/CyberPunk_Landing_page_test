@@ -1,0 +1,28 @@
+.hp-info__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 59px;
+  margin: 0px auto 0px 0px;
+  padding: 0px;
+  background: #000;
+  color: #f8f200;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hp-info__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.hp-info__button {
+  transition: transform 0.5s linear;
+}
+.hp-info__button:hover {
+  transform: scale(0.9);
+}

@@ -1,0 +1,7 @@
+.buy-game__platform_icon {
+  display: flex;
+  position: relative;
+  width: 319px;
+  height: 133px;
+  /* outline: 1px solid red; */
+}

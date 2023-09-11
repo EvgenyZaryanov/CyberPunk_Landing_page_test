@@ -1,0 +1,19 @@
+.header__social-navigation_icon {
+  width: 30px;
+  height: 30px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  /* outline: 1px solid red; */
+}
+.header__social-navigation_icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .header__social-navigation_icon {
+    width: 25px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,10 @@
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  max-width: 1920px;
+  height: 80px;
+  background-color: black;
+  /* outline: 1px solid red; */
+}

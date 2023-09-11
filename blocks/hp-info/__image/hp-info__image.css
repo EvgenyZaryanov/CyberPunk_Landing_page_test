@@ -1,0 +1,9 @@
+.hp-info__image {
+  width: 624px;
+  height: 430px;
+  background-image: url(../../../images/HP-image.png);
+  background-position: center;
+  background-size: cover;
+  margin: 0px 0px 26px 0px;
+  /* outline: 1px solid red; */
+}

@@ -1,0 +1,20 @@
+.contest__form_screenshot-2 {
+  display: flex;
+  width: 84px;
+  height: 14px;
+  margin: 0px;
+  background: black;
+  text-align: center;
+  align-self: center;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  /* outline: 1px solid red; */
+}
+
+/* ::-webkit-input-placeholder {
+    color: grey;
+  } */

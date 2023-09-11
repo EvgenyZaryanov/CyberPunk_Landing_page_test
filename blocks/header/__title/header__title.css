@@ -1,0 +1,24 @@
+.header__title {
+  width: 484px;
+  margin: 70px 70px 25px 70px;
+  color: #000;
+  font-family: 'Archangelsk';
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 320px) {
+  .header__title {
+    width: 295px;
+    font-size: 30px;
+    align-self: center;
+    justify-self: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 30px 12px 35px 12px;
+  }
+}

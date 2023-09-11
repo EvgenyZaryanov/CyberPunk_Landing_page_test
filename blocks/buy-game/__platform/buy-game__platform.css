@@ -1,0 +1,9 @@
+.buy-game__platform {
+  display: flex;
+  flex-direction: column;
+  gap: 24.85px;
+  width: 319px;
+  height: 186px;
+  margin: 0px 0px 70px 32px;
+  /* outline: 1px solid red; */
+}

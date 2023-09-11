@@ -1,0 +1,27 @@
+.contest__form_screenshot-1 {
+  display: flex;
+  width: 186px;
+  height: 21px;
+  margin: 0px;
+  background: black;
+  text-align: center;
+  align-self: center;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: underline;
+  /* outline: 1px solid red; */
+}
+
+.contest__form_screenshot-1:hover {
+  cursor: pointer;
+  color: #52bedc;
+}
+
+/* 
+::-webkit-input-placeholder {
+  color: grey;
+} */

@@ -1,0 +1,7 @@
+.buy-game {
+  display: flex;
+  flex-direction: row;
+  max-width: 1920px;
+  height: 717px;
+  /* outline: 1px solid red; */
+}

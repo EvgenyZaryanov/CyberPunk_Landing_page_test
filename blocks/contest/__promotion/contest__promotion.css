@@ -1,0 +1,11 @@
+.contest__promotion {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(../../../images/Vector.svg);
+  background-position: center;
+  background-size: cover;
+  width: 132px;
+  height: 132px;
+  /* outline: 1px solid red; */
+}

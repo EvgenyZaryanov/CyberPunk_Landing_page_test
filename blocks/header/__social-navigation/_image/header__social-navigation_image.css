@@ -1,0 +1,13 @@
+.header__social-navigation_image {
+  transition: transform 0.3s;
+}
+.header__social-navigation_image:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 320px) {
+  .header__social-navigation_image {
+    width: 25px;
+    height: 25px;
+  }
+}

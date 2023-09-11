@@ -1,0 +1,8 @@
+.contest__console {
+  display: flex;
+  flex-direction: row;
+  width: 788px;
+  height: 456px;
+  margin: 0px;
+  /* outline: 1px solid red; */
+}

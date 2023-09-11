@@ -1,0 +1,6 @@
+.footer__main_documents {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin: 40px 0px 39px 390px;
+}

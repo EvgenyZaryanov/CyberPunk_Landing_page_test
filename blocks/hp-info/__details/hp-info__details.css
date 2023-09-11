@@ -1,0 +1,12 @@
+.hp-info__details {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 126px;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  /* outline: 1px solid red; */
+  gap: 15px;
+}

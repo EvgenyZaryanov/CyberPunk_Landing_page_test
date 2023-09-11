@@ -1,0 +1,12 @@
+.contest__console_image-2 {
+  display: flex;
+  justify-self: end;
+  width: 460px;
+  height: 456px;
+  background-image: url(../../../../images/Layer\ PS-5.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  margin-left: -130px;
+}

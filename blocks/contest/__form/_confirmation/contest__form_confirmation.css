@@ -1,0 +1,50 @@
+.contest__form_confirmation {
+  width: 280px;
+  height: 14px;
+  margin: 0px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  /* outline: 1px solid red; */
+}
+
+/* input[type='checkbox'] {
+  display: none;
+}
+input[type='checkbox'] + label:before {
+  content: '☐';
+}
+input:checked + label:before {
+  content: '☑';
+}
+label:hover {
+  color: white;
+  cursor: pointer;
+} */
+
+label input {
+  display: none; /* <--скрываем дефолтный чекбокс */
+}
+label span {
+  /* <-- стилизируем новый */
+  height: 14px;
+  width: 14px;
+  margin-right: 10px;
+  border: 1px solid gray;
+  display: inline-block;
+  position: relative;
+  background-color: black;
+  border-radius: 2px;
+}
+[type='checkbox']:checked + span:before {
+  /* <-- ставим иконку, когда чекбокс включен  */
+  content: '\2714';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  font-size: 20px;
+  color: #f8f200;
+}
