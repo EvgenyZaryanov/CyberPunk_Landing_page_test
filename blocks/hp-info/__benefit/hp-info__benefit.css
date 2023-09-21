@@ -8,3 +8,10 @@
   margin: 0px;
   /* outline: 1px solid red; */
 }
+@media screen and (max-width: 320px) {
+  .hp-info__benefit {
+    max-width: 296px;
+    height: auto;
+    gap: 18px;
+  }
+}

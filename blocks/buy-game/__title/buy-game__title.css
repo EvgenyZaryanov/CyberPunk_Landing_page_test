@@ -9,3 +9,20 @@
   line-height: normal;
   margin: 70px 0px 25px 32px;
 }
+@media screen and (max-width: 1024px) {
+  .buy-game__title {
+    width: 624px;
+    margin: 70px 36px 25px 32px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .buy-game__title {
+    max-width: 296px;
+    height: auto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 40px 12px 25px;
+  }
+}

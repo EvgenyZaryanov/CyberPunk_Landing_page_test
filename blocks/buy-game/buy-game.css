@@ -5,3 +5,15 @@
   height: 717px;
   /* outline: 1px solid red; */
 }
+@media screen and (max-width: 1024px) {
+  .buy-game {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .buy-game {
+    max-width: 320px;
+    height: auto;
+    flex-direction: column;
+  }
+}

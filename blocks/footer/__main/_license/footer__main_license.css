@@ -11,3 +11,8 @@
 .footer__main_license:hover {
   text-decoration: underline;
 }
+@media screen and (max-width: 320px) {
+  .footer__main_license {
+    font-size: 16px;
+  }
+}

@@ -6,3 +6,16 @@
   margin: 70px 0px 70px 0px;
   /* outline: 1px solid red; */
 }
+@media screen and (max-width: 1024px) {
+  .hp-info__container_block-2 {
+    width: 460px;
+    height: 660px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hp-info__container_block-2 {
+    max-width: 296px;
+    height: 643px;
+    margin: 40px 12px 0px;
+  }
+}

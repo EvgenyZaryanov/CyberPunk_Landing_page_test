@@ -11,20 +11,6 @@
   /* outline: 1px solid red; */
 }
 
-/* input[type='checkbox'] {
-  display: none;
-}
-input[type='checkbox'] + label:before {
-  content: '☐';
-}
-input:checked + label:before {
-  content: '☑';
-}
-label:hover {
-  color: white;
-  cursor: pointer;
-} */
-
 label input {
   display: none; /* <--скрываем дефолтный чекбокс */
 }
@@ -45,6 +31,12 @@ label span {
   position: absolute;
   top: -5px;
   left: 0;
-  font-size: 20px;
+  font-size: 18px;
   color: #f8f200;
 }
+/* @media screen and (max-width: 320px) {
+  .contest__form_confirmation {
+    text-align: start;
+    align-content: start;
+  }
+} */

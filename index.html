@@ -137,30 +137,34 @@
               подведены 1 февраля. Удачи!
             </p>
           </div>
-          <div class="contest__container_block-3">
-            <form class="contest__form">
-              <input type="text" class="contest__form_name" placeholder="Как тебя зовут?" />
-              <input type="text" class="contest__form_mail" placeholder="Твой e-mail" />
-              <div class="contest__form_container">
-                <p class="contest__form_screenshot-1">Прикрепить скриншот</p>
-                <p class="contest__form_screenshot-2">.png / .jpg / .pdf</p>
-              </div>
-              <button type="submit" area-label="Отправить" class="contest__form_submit">
-                Отправить
-              </button>
-              <label class="contest__form_confirmation">
-                <input type="checkbox" />
-                <span></span>
-                Согласен на обработку персональных данных
-              </label>
-            </form>
-            <div class="contest__console">
-              <div class="contest__console_image-1">
-                <img class="contest__console_image-1_pic" src="./images/x-box.png" />
-              </div>
-              <div class="contest__console_image-2">
-                <img class="contest__console_image-2_pic" src="./images/ps-5.png" />
-              </div>
+          <form class="contest__form">
+            <input type="text" class="contest__form_name" placeholder="Как тебя зовут?" />
+            <input type="text" class="contest__form_mail" placeholder="Твой e-mail" />
+            <div class="contest__form_container">
+              <label class="contest__form_screenshot-1" for="file"
+                >Прикрепить скриншот<br />.png /.jpg /.pdf<br
+              /></label>
+              <input class="contest__form_screenshot-2" type="file" id="file" name="file" />
+            </div>
+            <!-- <div class="contest__form_container">
+              <p class="contest__form_screenshot-1">Прикрепить скриншот</p>
+              <p class="contest__form_screenshot-2">.png / .jpg / .pdf</p>
+            </div> -->
+            <button type="submit" area-label="Отправить" class="contest__form_submit">
+              Отправить
+            </button>
+            <label class="contest__form_confirmation">
+              <input type="checkbox" />
+              <span></span>
+              Согласен на обработку персональных данных
+            </label>
+          </form>
+          <div class="contest__console">
+            <div class="contest__console_image-1">
+              <img class="contest__console_image-1_pic" src="./images/x-box.png" />
+            </div>
+            <div class="contest__console_image-2">
+              <img class="contest__console_image-2_pic" src="./images/ps-5.png" />
             </div>
           </div>
         </div>
@@ -171,9 +175,9 @@
           <div class="hp-info__container_block-1">
             <div class="hp-info__image"></div>
             <div class="hp-info__logos">
-              <img src="./images/hp-2 logo.svg" />
-              <img src="./images/X-symbol.svg" />
-              <img src="./images/Cyberpunk_2077_logo 1.svg" />
+              <img class="hp-info__logos_image1" src="./images/hp-2 logo.svg" />
+              <img class="hp-info__logos_image2" src="./images/X-symbol.svg" />
+              <img class="hp-info__logos_image3" src="./images/Cyberpunk_2077_logo 1.svg" />
             </div>
           </div>
           <div class="hp-info__container_block-2">
@@ -216,15 +220,15 @@
               <h3 class="buy-game__subtitle_text">В комплект входит:</h3>
             </li>
             <li class="buy-game__benefit">
-              <img src="./images/buy-game-disk.png" />
+              <img class="buy-game__benefit_pic" src="./images/buy-game-disk.png" />
               <p class="buy-game__benefit_text">Футляр с игровыми дисками</p>
             </li>
             <li class="buy-game__benefit">
-              <img src="./images/buy-game-box.png" />
+              <img class="buy-game__benefit_pic" src="./images/buy-game-box.png" />
               <p class="buy-game__benefit_text">Футляр с кодом для загрузки игры и дисками (pc)</p>
             </li>
             <li class="buy-game__benefit">
-              <img src="./images/buy-game-collections.png" />
+              <img class="buy-game__benefit_pic" src="./images/buy-game-collections.png" />
               <p class="buy-game__benefit_text">Справочник с информацией об игровом мире</p>
             </li>
           </ul>

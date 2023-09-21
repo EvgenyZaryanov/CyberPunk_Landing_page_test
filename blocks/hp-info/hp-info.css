@@ -5,3 +5,15 @@
   background: #f8f200;
   /* outline: 1px solid red; */
 }
+@media screen and (max-width: 1024px) {
+  .hp-info {
+    max-width: 1024px;
+    height: 796px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hp-info {
+    max-width: 320px;
+    height: auto;
+  }
+}

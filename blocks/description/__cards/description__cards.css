@@ -47,8 +47,8 @@
 
 @media screen and (max-width: 320px) {
   .description__cards {
-    width: 320px;
-    /* height: 880px; */
+    max-width: 320px;
+    height: 880px;
     margin: 0px;
     grid-template-columns: 320px;
     grid-template-rows: 196px 196px 424px;

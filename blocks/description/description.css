@@ -1,6 +1,6 @@
 .description {
   max-width: 1920px;
-  height: 790px;
+  /* height: 790px; */
   margin: 0px 0px 70px 0px;
   padding: 0px;
   /* outline: 1px solid red; */
@@ -19,8 +19,7 @@
 }
 @media screen and (max-width: 320px) {
   .description {
-    width: 320px;
-    height: 1480px;
+    max-width: 320px;
     margin: 0px;
   }
 }

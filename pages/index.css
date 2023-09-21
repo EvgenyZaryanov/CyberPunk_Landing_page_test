@@ -14,6 +14,8 @@
 @import url(../blocks/header/__button/_text/header__button_text.css);
 @import url(../blocks/header/__button/_link/header__button_link.css);
 
+@import url(../blocks/main/main.css);
+
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__info/description__info.css);
@@ -36,7 +38,6 @@
 @import url(../blocks/contest/__console/contest__console.css);
 @import url(../blocks/contest/__console/_image-1/contest__console_image-1.css);
 
-@import url(../blocks/contest/__container/_block-3/contest__container_block-3.css);
 @import url(../blocks/contest/__console/_image-2/contest__console_image-2.css);
 @import url(../blocks/contest/__console/_image-1/_pic-1/contest__console-image_1_pic.css);
 @import url(../blocks/contest/__console/_image-2/_pic-2/contest__console_image-2_pic.css);
@@ -65,6 +66,9 @@
 @import url(../blocks/hp-info/__benefit/_text/hp-info__benefit_text.css);
 @import url(../blocks/hp-info/__button/hp-info__button.css);
 @import url(../blocks/hp-info/__link/hp-info__link.css);
+@import url(../blocks/hp-info/__logos/_image1/hp-info__logos_image1.css);
+@import url(../blocks/hp-info/__logos/_image2/hp-info__logos_image2.css);
+@import url(../blocks/hp-info/__logos/_image3/hp-info__logos_image3.css);
 
 @import url(../blocks/buy-game/buy-game.css);
 @import url(../blocks/buy-game/__picture/buy-game__picture.css);
@@ -75,6 +79,7 @@
 @import url(../blocks/buy-game/__subtitle/_text/buy-game__subtitle_text.css);
 @import url(../blocks/buy-game/__benefit/buy-game__benefit.css);
 @import url(../blocks/buy-game/__benefit/_text/buy-game__benefit_text.css);
+@import url(../blocks/buy-game/__benefit/_pic/buy-game__benefit_pic.css);
 @import url(../blocks/buy-game/__platform/buy-game__platform.css);
 @import url(../blocks/buy-game/__platform/_text/buy-game__platform_text.css);
 @import url(../blocks/buy-game/__platform/_icon/buy-game__platform_icon.css);

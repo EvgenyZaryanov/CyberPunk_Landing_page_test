@@ -3,3 +3,9 @@
   height: 32px;
   object-fit: contain;
 }
+@media screen and (max-width: 320px) {
+  .hp-info__benefit_icon {
+    width: 24px;
+    height: 24px;
+  }
+}

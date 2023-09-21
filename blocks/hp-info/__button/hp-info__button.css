@@ -26,3 +26,13 @@
 .hp-info__button:hover {
   transform: scale(0.9);
 }
+@media screen and (max-width: 320px) {
+  .hp-info__button {
+    width: 184px;
+    height: 60px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

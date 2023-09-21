@@ -12,3 +12,9 @@
   background: black;
   /* outline: 1px solid red; */
 }
+@media screen and (max-width: 320px) {
+  .contest__form_container {
+    width: 296px;
+    height: 120px;
+  }
+}

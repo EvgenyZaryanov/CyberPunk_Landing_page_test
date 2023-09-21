@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 320px) {
   .header__social-navigation {
-    width: 296px;
+    max-width: 296px;
     height: 25px;
     margin: 0px;
   }

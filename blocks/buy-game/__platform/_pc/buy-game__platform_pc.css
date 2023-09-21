@@ -5,3 +5,9 @@
   top: 0;
   left: 0;
 }
+@media screen and (max-width: 320px) {
+  .buy-game__platform_text {
+    max-width: 296px;
+    height: auto;
+  }
+}

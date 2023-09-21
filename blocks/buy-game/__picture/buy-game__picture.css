@@ -9,3 +9,18 @@
   background-repeat: no-repeat;
   /* outline: 1px solid red; */
 }
+@media screen and (max-width: 1024px) {
+  .buy-game__picture {
+    width: 332px;
+    height: 717px;
+    background-image: url(../../../images/buy-game-pic-1024.png);
+  }
+}
+@media screen and (max-width: 320px) {
+  .buy-game__picture {
+    background-image: url(../../../images/buy-game-pic.png);
+    background-size: cover;
+    max-width: 320px;
+    height: 198px;
+  }
+}

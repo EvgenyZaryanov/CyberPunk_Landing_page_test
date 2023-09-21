@@ -26,3 +26,10 @@
 .contest__form_submit:hover {
   transform: scale(0.9);
 }
+@media screen and (max-width: 320px) {
+  .contest__form_submit {
+    font-size: 16px;
+    width: 182px;
+    height: 60px;
+  }
+}

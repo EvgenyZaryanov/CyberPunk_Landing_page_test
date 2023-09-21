@@ -1,8 +1,23 @@
 .hp-info__container {
   display: flex;
   flex-direction: row;
-  width: 1280px;
+  max-width: 1280px;
   height: 676px;
   margin: 0px auto;
   /* outline: 1px solid red; */
+}
+@media screen and (max-width: 1024px) {
+  .hp-info__container {
+    max-width: 1024px;
+    height: 796px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hp-info__container {
+    flex-direction: column;
+    max-width: 320px;
+    height: auto;
+  }
 }

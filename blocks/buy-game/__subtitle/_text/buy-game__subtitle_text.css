@@ -8,3 +8,11 @@
   margin: 0px;
   padding: 0px;
 }
+@media screen and (max-width: 320px) {
+  .buy-game__subtitle_text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

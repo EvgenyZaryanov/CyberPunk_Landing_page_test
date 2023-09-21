@@ -7,3 +7,11 @@
   margin: 0px 0px 70px 32px;
   /* outline: 1px solid red; */
 }
+@media screen and (max-width: 320px) {
+  .buy-game__platform {
+    max-width: 296px;
+    height: auto;
+    margin: 0px 12px 71px;
+    gap: 25.85px;
+  }
+}

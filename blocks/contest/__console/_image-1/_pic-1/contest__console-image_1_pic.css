@@ -4,3 +4,10 @@
   margin: 25px 0px 80px 164px;
   z-index: 2;
 }
+@media screen and (max-width: 320px) {
+  .contest__console_image-1_pic {
+    width: 85px;
+    height: 100.7px;
+    margin: 7px 0px 23px 47px;
+  }
+}

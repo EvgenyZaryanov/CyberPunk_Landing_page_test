@@ -1,8 +1,29 @@
 .contest__console {
   display: flex;
   flex-direction: row;
+  position: absolute;
   width: 788px;
   height: 456px;
-  margin: 0px;
+  top: 288px;
+  right: 0px;
   /* outline: 1px solid red; */
+}
+@media screen and (max-width: 1024px) {
+  .contest__console {
+    flex-direction: column;
+    width: 460px;
+    height: 900px;
+    top: 95px;
+    right: 36px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contest__console {
+    flex-direction: row;
+    width: 296px;
+    height: 131px;
+    /* margin: 0px auto 25px 12px; */
+    top: 55px;
+    left: 12px;
+  }
 }

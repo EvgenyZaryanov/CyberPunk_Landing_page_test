@@ -21,8 +21,9 @@
 
 @media screen and (max-width: 320px) {
   .header__container {
-    width: 296px;
+    max-width: 296px;
     height: 85px;
+    display: flex;
     flex-direction: column;
     margin-right: 10px;
     margin-bottom: 0px;

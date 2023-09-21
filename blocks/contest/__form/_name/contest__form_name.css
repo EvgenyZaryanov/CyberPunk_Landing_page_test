@@ -17,3 +17,11 @@
 ::-webkit-input-placeholder {
   color: grey;
 }
+@media screen and (max-width: 320px) {
+  .contest__form_name {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+}

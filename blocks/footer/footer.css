@@ -3,3 +3,16 @@
   height: 180px;
   /* outline: 1px solid red; */
 }
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer {
+    /* display: flex;
+    flex-direction: column; */
+    max-width: 320px;
+    height: 340px;
+  }
+}

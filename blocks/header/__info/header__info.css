@@ -31,8 +31,9 @@
 
 @media screen and (max-width: 320px) {
   .header__info {
-    width: 320px;
+    max-width: 320px;
     height: 207px;
     right: 0px;
+    margin-bottom: -32px;
   }
 }

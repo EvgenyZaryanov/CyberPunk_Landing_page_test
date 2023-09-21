@@ -9,3 +9,11 @@
   list-style-type: none;
   /* outline: 1px solid red; */
 }
+@media screen and (max-width: 320px) {
+  .buy-game__details {
+    max-width: 296px;
+    height: auto;
+    gap: 15px;
+    margin: 0px 12px 40px;
+  }
+}

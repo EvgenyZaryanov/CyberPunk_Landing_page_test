@@ -3,3 +3,14 @@
   height: 717px;
   background: #000;
 }
+@media screen and (max-width: 1024px) {
+  .buy-game__info {
+    width: 692px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .buy-game__info {
+    max-width: 320px;
+    height: 585px;
+  }
+}

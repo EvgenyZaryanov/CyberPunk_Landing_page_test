@@ -8,3 +8,10 @@
   gap: 10px;
   /* outline: 1px solid red; */
 }
+@media screen and (max-width: 320px) {
+  .buy-game__benefit {
+    max-width: 296px;
+    height: 38px;
+    gap: 18px;
+  }
+}

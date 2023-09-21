@@ -9,3 +9,8 @@
   line-height: normal;
   margin: 0px;
 }
+@media screen and (max-width: 320px) {
+  .buy-game__platform_text {
+    font-size: 20px;
+  }
+}

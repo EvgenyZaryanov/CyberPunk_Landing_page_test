@@ -9,3 +9,17 @@
   line-height: normal;
   margin: 0px 64px 25px 0px;
 }
+@media screen and (max-width: 1024px) {
+  .hp-info__title {
+    width: 460px;
+    height: 189px;
+    margin: 0px 0px 25px 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hp-info__title {
+    max-width: 296px;
+    height: 62px;
+    font-size: 30px;
+  }
+}

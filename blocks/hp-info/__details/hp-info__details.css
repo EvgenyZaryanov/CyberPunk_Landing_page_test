@@ -10,3 +10,9 @@
   /* outline: 1px solid red; */
   gap: 15px;
 }
+@media screen and (max-width: 320px) {
+  .hp-info__details {
+    max-width: 296px;
+    height: auto;
+  }
+}

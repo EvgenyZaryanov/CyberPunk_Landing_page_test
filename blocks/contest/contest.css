@@ -1,5 +1,16 @@
 .contest {
   max-width: 1920px;
-  height: 834px;
+  /* height: 834px; */
   background: rgba(0, 0, 0, 1);
+}
+@media screen and (max-width: 1024px) {
+  .contest {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contest {
+    max-width: 320px;
+    height: 1001px;
+  }
 }

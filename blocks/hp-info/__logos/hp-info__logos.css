@@ -8,3 +8,22 @@
   margin: 0px;
   /* outline: 1px solid red; */
 }
+@media screen and (max-width: 1024px) {
+  .hp-info__logos {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 230px;
+    align-items: center;
+    margin-left: 106px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hp-info__logos {
+    max-width: 320px;
+    height: 44px;
+    flex-direction: row;
+    gap: 13.7px;
+    margin: 0px 12px 0px;
+  }
+}
