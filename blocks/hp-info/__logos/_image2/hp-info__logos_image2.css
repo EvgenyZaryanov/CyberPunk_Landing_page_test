@@ -2,7 +2,7 @@
   width: 90px;
   height: 20px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .hp-info__logos_image2 {
     width: 50px;
     height: 10.55px;

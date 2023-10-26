@@ -15,9 +15,9 @@
     height: 192px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .hp-info__text {
-    max-width: 296px;
+    max-width: 320px;
     height: 245px;
     padding: 0px;
     color: #000;
@@ -26,5 +26,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin: 0px auto 25px;
   }
 }

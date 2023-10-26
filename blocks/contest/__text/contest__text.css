@@ -7,7 +7,7 @@
   line-height: 34px;
   margin: 0px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .contest__text {
     font-size: 16px;
     font-style: normal;
@@ -15,6 +15,6 @@
     line-height: 32px;
     width: 296px;
     height: 213px;
-    margin: 0px 0px 70px;
+    margin: 0px auto 70px;
   }
 }

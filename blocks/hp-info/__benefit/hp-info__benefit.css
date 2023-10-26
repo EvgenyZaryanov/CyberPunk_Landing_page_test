@@ -8,9 +8,9 @@
   margin: 0px;
   /* outline: 1px solid red; */
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .hp-info__benefit {
-    max-width: 296px;
+    max-width: 320px;
     height: auto;
     gap: 18px;
   }

@@ -1,7 +1,7 @@
 .description__title {
   max-width: 996px;
   color: #000;
-  font-family: 'Archangelsk';
+  font-family: "Archangelsk";
   font-size: 62px;
   font-style: normal;
   font-weight: 400;
@@ -31,7 +31,14 @@
     margin-left: 36px;
   }
 }
-
+@media screen and (max-width: 480px) {
+  .description__title {
+    width: 280px;
+    margin: 102px auto 25px;
+    font-size: 30px;
+    padding: 0px;
+  }
+}
 @media screen and (max-width: 320px) {
   .description__title {
     width: 280px;

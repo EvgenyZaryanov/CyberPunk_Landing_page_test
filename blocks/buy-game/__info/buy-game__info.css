@@ -8,9 +8,11 @@
     width: 692px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .buy-game__info {
-    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
     height: 585px;
   }
 }

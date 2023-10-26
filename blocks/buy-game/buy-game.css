@@ -10,9 +10,9 @@
     max-width: 1024px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .buy-game {
-    max-width: 320px;
+    max-width: 480px;
     height: auto;
     flex-direction: column;
   }

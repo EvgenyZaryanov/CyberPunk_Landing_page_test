@@ -12,10 +12,10 @@
     height: 660px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .hp-info__container_block-2 {
-    max-width: 296px;
+    max-width: 480px;
     height: 643px;
-    margin: 40px 12px 0px;
+    margin: 40px auto 0px;
   }
 }

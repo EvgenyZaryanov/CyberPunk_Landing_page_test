@@ -18,12 +18,12 @@
     margin-left: 106px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .hp-info__logos {
     max-width: 320px;
     height: 44px;
     flex-direction: row;
     gap: 13.7px;
-    margin: 0px 12px 0px;
+    margin: 0px auto 0px;
   }
 }

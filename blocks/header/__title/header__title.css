@@ -2,16 +2,16 @@
   width: 484px;
   margin: 70px 70px 25px 70px;
   color: #000;
-  font-family: 'Archangelsk';
+  font-family: "Archangelsk";
   font-size: 62px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .header__title {
-    width: 295px;
+    max-width: 320px;
     font-size: 30px;
     align-self: center;
     justify-self: center;
@@ -19,6 +19,6 @@
     font-weight: 400;
     line-height: normal;
     text-align: center;
-    margin: 30px 12px 35px 12px;
+    margin: 30px auto 35px;
   }
 }

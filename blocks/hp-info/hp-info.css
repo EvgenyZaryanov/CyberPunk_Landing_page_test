@@ -11,9 +11,16 @@
     height: 796px;
   }
 }
+@media screen and (max-width: 480px) {
+  .hp-info {
+    max-width: 480px;
+    margin: auto;
+    height: auto;
+  }
+}
 @media screen and (max-width: 320px) {
   .hp-info {
     max-width: 320px;
-    height: auto;
+    /* height: auto; */
   }
 }

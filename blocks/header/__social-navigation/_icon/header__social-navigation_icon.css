@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .header__social-navigation_icon {
     width: 25px;
     height: 25px;

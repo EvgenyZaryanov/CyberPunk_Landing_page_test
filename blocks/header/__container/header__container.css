@@ -18,10 +18,20 @@
     margin-left: 36px;
   }
 }
-
+@media screen and (max-width: 480px) {
+  .header__container {
+    max-width: 480px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+  }
+}
 @media screen and (max-width: 320px) {
   .header__container {
-    max-width: 296px;
+    max-width: 320px;
     height: 85px;
     display: flex;
     flex-direction: column;

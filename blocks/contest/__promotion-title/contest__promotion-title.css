@@ -15,7 +15,7 @@
     margin: 0px 0px 25px 36px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .contest__promotion-title {
     width: 296px;
     height: 31px;
@@ -23,7 +23,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0px 0px 25px 12px;
+    margin: 0px auto 25px;
     align-self: start;
   }
 }

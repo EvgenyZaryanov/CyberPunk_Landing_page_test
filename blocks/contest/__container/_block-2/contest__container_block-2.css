@@ -13,10 +13,17 @@
     margin: 0px 0px 98px 36px;
   }
 }
+@media screen and (max-width: 480px) {
+  .contest__container_block-2 {
+    width: 480px;
+    height: 213px;
+    margin: 0px auto 70px;
+  }
+}
 @media screen and (max-width: 320px) {
   .contest__container_block-2 {
     width: 296px;
-    height: 213px;
-    margin: 0px 12px 70px;
+    /* height: 213px;
+    margin: 0px 12px 70px; */
   }
 }

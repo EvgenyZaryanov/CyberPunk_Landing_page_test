@@ -17,12 +17,12 @@
     right: 36px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .contest__console {
     flex-direction: row;
     width: 296px;
     height: 131px;
-    /* margin: 0px auto 25px 12px; */
+    margin: auto;
     top: 55px;
     left: 12px;
   }

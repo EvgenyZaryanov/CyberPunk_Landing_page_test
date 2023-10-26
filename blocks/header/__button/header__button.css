@@ -21,10 +21,20 @@
   transform: scale(0.9);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .header__button {
     width: 244px;
     height: 60px;
     margin: 0px 38px 30px 38px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__button {
+    max-width: 320px;
+    height: 60px;
+    margin: 0px 38px 30px 38px;
+    align-self: center;
   }
 }

@@ -8,9 +8,15 @@
     max-width: 1024px;
   }
 }
+@media screen and (max-width: 480px) {
+  .contest {
+    max-width: 480px;
+    /* height: 1001px; */
+  }
+}
 @media screen and (max-width: 320px) {
   .contest {
     max-width: 320px;
-    height: 1001px;
+    /* height: 1001px; */
   }
 }

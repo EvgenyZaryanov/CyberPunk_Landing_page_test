@@ -16,10 +16,17 @@
     height: 300px;
   }
 }
+@media screen and (max-width: 480px) {
+  .contest__container_block-1 {
+    max-width: 480px;
+    height: auto;
+    margin: auto;
+  }
+}
 @media screen and (max-width: 320px) {
   .contest__container_block-1 {
     max-width: 296px;
-    height: auto;
-    margin: 0px;
+    /* height: auto;
+    margin: 0px; */
   }
 }

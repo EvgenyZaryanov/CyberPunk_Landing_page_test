@@ -16,11 +16,11 @@
     background-image: url(../../../images/buy-game-pic-1024.png);
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .buy-game__picture {
     background-image: url(../../../images/buy-game-pic.png);
     background-size: cover;
-    max-width: 320px;
+    width: 480px;
     height: 198px;
   }
 }
