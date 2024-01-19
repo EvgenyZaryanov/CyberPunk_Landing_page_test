@@ -1,38 +1,32 @@
 .header {
   display: flex;
-  position: relative;
+  flex-direction: column;
+  gap: 560px;
   max-width: 1920px;
-  height: 1000px;
-  flex-shrink: 0;
-  background: url(../../images/main-image-png.png) lightgray 50% / cover
-    no-repeat;
-  background-position: center;
+  background-image: url(../../images/header-back-cover.jpeg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .header {
-    max-width: 1024px;
-    background: url(../../images/main-image-1024.svg) lightgray 50% / cover
-      no-repeat;
+    max-width: 1280px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .header {
     max-width: 480px;
-    /* max-height: 713px; */
-    background: url(../../images/main-image-mobile.svg) lightgray 50% / cover
-      no-repeat;
+    background: url(../../images/main-image-mobile.svg);
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .header {
-    max-width: 320px;
-    /* max-height: 713px; */
-    background: url(../../images/main-image-mobile.svg) lightgray 50% / cover
-      no-repeat;
-    background-position: center;
+    max-width: 340px;
+    gap: 451px;
   }
 }

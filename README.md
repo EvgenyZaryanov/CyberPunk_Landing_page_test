@@ -1,3 +1,3 @@
-# Test landing-page (Cyberpunk_2077)
+# CyberPunk-test-landing
 -------------------------
-[Ссылка на страницу] (https://evgenyzaryanov.github.io/Test-landing-page)
+[Ссылка на проект] (https://evgenyzaryanov.github.io/CyberPunk-test-landing/)

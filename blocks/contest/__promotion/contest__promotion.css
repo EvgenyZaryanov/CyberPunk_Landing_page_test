@@ -9,7 +9,7 @@
   height: 132px;
   /* outline: 1px solid red; */
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1330px) {
   .contest__promotion {
     margin: 0px 0px 15px 36px;
   }

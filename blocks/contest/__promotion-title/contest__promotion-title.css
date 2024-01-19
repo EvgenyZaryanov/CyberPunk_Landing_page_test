@@ -10,7 +10,7 @@
   align-self: end;
   margin-bottom: 20px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1330px) {
   .contest__promotion-title {
     margin: 0px 0px 25px 36px;
   }

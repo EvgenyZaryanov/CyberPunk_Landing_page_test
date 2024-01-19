@@ -3,12 +3,12 @@
 @import url(../vendor/font.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__social-navigation/header__social-navigation.css);
-@import url(../blocks/header/__social-navigation/_icon/header__social-navigation_icon.css);
-@import url(../blocks/header/__social-navigation/_image/header__social-navigation_image.css);
+@import url(../blocks/header/__social-navIcon/header__social-navIcon.css);
 @import url(../blocks/header/__info/header__info.css);
+@import url(../blocks/header/__info-container/header__info-container.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__button/_text/header__button_text.css);

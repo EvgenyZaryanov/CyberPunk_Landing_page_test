@@ -8,7 +8,13 @@
   margin: 0px;
   padding: 0px;
   list-style-type: none;
-  /* outline: 1px solid red; */
+}
+
+@media screen and (max-width: 860px) {
+  .header__social-navigation {
+    width: 300px;
+    height: 25px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -19,10 +25,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .header__social-navigation {
     max-width: 296px;
-    height: 25px;
-    margin: 0px;
+    width: 90%;
   }
 }
