@@ -1,7 +1,7 @@
 .contest__promotionInner {
   width: 132px;
   height: 132px;
-  background: url("/images/Vector.svg") no-repeat;
+  background: url(../../../images/Vector.svg) no-repeat;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 560px) {
   .contest__promotionInner {
-    background-image: url("/images/Vector-mobile.svg");
+    background-image: url(../../../images/Vector-mobile.svg);
     background-position: center;
     background-size: cover;
     width: 62px;
