@@ -1,0 +1,27 @@
+.contest__form-mail {
+  max-width: 460px;
+  height: 35px;
+  background: black;
+  margin: 0px 0px 35px 0px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+::-webkit-input-placeholder {
+  color: grey;
+}
+@media screen and (max-width: 740px) {
+  .contest__form-mail {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+}

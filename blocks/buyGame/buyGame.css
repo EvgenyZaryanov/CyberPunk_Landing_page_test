@@ -1,0 +1,17 @@
+.buyGame {
+  display: flex;
+  flex-direction: row;
+  max-width: 1920px;
+  background-color: #000;
+}
+@media screen and (max-width: 1024px) {
+  .buyGame {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 722px) {
+  .buyGame {
+    max-width: 722px;
+    flex-direction: column;
+  }
+}

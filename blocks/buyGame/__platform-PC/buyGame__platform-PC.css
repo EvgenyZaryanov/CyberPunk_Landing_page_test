@@ -1,0 +1,13 @@
+.buyGame__platform-PC {
+  width: 62px;
+  height: 35.188px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width: 320px) {
+  .buyGame__platform-PC {
+    max-width: 296px;
+    height: auto;
+  }
+}

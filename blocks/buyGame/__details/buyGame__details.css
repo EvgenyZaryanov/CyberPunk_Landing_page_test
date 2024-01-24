@@ -1,0 +1,32 @@
+.buyGame__details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 466px;
+  margin: 0px auto 70px 32px;
+  padding-left: 0px;
+  list-style-type: none;
+  /* outline: 1px solid red; */
+}
+
+@media screen and (max-width: 872px) {
+  .buyGame__details {
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 722px) {
+  .buyGame__details {
+    max-width: 466px;
+    margin: 0px 16px 70px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .buyGame__details {
+    max-width: 100%;
+    height: auto;
+    gap: 15px;
+    margin: 0px 12px 40px;
+  }
+}

@@ -18,9 +18,16 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 740px) {
   .contest__form {
-    width: 296px;
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .contest__form {
+    max-width: 296px;
+    width: 90%;
     margin: 0px auto 70px;
   }
 }

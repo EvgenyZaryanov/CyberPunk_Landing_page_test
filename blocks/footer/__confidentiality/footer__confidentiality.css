@@ -1,0 +1,18 @@
+.footer__confidentiality {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__confidentiality:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 1023px) {
+  .footer__confidentiality {
+    font-size: 16px;
+  }
+}

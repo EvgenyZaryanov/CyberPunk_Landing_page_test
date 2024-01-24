@@ -1,8 +1,0 @@
-.contest__promotion_pic {
-  display: flex;
-  width: 60%;
-  height: 60%;
-  position: relative;
-  align-self: center;
-  z-index: 2;
-}

@@ -1,0 +1,42 @@
+.buyGame__title {
+  max-width: 540px;
+  color: #fff;
+  font-family: Archangelsk;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 70px 0px 25px 32px;
+}
+@media screen and (max-width: 1024px) {
+  .buyGame__title {
+    margin: 70px 36px 25px 32px;
+  }
+}
+
+@media screen and (max-width: 872px) {
+  .buyGame__title {
+    font-size: 42px;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 722px) {
+  .buyGame__title {
+    font-size: 42px;
+    max-width: 466px;
+    margin: 70px 16px 25px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .buyGame__title {
+    max-width: 100%;
+    height: auto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 40px 12px 25px;
+  }
+}

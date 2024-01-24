@@ -4,7 +4,7 @@
   position: absolute;
   width: 788px;
   height: 456px;
-  top: 288px;
+  top: 340px;
   right: 0px;
 }
 @media screen and (max-width: 1330px) {
@@ -27,13 +27,20 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 740px) {
+  .contest__console {
+    width: 300px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 560px) {
   .contest__console {
     flex-direction: row;
     width: 296px;
     height: 131px;
     margin: auto;
-    top: 55px;
-    left: 12px;
+    top: 85px;
+    left: 0px;
   }
 }

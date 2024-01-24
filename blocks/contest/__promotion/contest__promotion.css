@@ -1,24 +1,29 @@
 .contest__promotion {
+  position: relative;
   display: flex;
   justify-content: center;
-  align-content: center;
-  background-image: url(../../../images/Vector.svg);
-  background-position: center;
-  background-size: cover;
+  align-items: center;
+  position: relative;
   width: 132px;
   height: 132px;
-  /* outline: 1px solid red; */
+  margin-top: 20px;
 }
+
 @media screen and (max-width: 1330px) {
   .contest__promotion {
-    margin: 0px 0px 15px 36px;
+    margin: 20px 0px 15px 36px;
   }
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 740px) {
   .contest__promotion {
-    background-image: url(../../../images/Vector-mobile.svg);
-    background-position: center;
-    background-size: cover;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .contest__promotion {
     width: 62px;
     height: 62px;
     margin: 6px 0px 143px 12px;

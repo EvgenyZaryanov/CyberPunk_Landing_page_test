@@ -1,0 +1,26 @@
+.hpInfo__details {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 126px;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  gap: 15px;
+}
+
+@media screen and (max-width: 960px) {
+  .hpInfo__details {
+    max-width: 296px;
+    height: auto;
+    margin: 0px 0px 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hpInfo__details {
+    width: 90%;
+    margin: 0px 0px 40px;
+  }
+}

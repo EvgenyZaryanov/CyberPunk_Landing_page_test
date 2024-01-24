@@ -1,0 +1,34 @@
+.footer__documents {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  margin: 0px 36px 0px 0px;
+}
+@media screen and (max-width: 1024px) {
+  .footer__documents {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer__documents {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer__documents {
+    max-width: 242px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto 25px;
+    gap: 15px;
+    font-size: 16px;
+  }
+}

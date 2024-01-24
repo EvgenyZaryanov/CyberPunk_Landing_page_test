@@ -1,0 +1,11 @@
+.hpInfo__benefitIcon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+@media screen and (max-width: 320px) {
+  .hpInfo__benefitIcon {
+    width: 24px;
+    height: 24px;
+  }
+}

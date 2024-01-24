@@ -1,0 +1,33 @@
+.contest__block-2 {
+  width: 952px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1330px) {
+  .contest__block-2 {
+    width: 460px;
+    margin: 0px 0px 98px 36px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .contest__block-2 {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .contest__block-2 {
+    max-width: 296px;
+    width: 100%;
+    margin: 0px auto 70px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contest__block-2 {
+    margin: 0px 0px 70px;
+  }
+}

@@ -1,0 +1,31 @@
+.contest__form-screenshot {
+  display: flex;
+  width: 186px;
+  height: 21px;
+  margin: 0px;
+  background: black;
+  text-align: center;
+  align-self: center;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.contest__form-screenshot:hover {
+  cursor: pointer;
+  color: #52bedc;
+}
+@media screen and (max-width: 740px) {
+  .contest__form-screenshot {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 166px;
+    height: 19px;
+  }
+}

@@ -1,0 +1,22 @@
+.buyGame__subText {
+  color: #52bedc;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 872px) {
+  .buyGame__subText {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .buyGame__subText {
+    font-size: 20px;
+  }
+}

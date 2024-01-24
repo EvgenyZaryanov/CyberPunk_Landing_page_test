@@ -1,0 +1,42 @@
+.header__button-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 272px;
+  height: 78px;
+  margin: 0px 0px 70px 70px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  background: #000;
+}
+
+.header__button-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.header__button-link {
+  transition: transform 0.5s linear;
+}
+.header__button-link:hover {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 560px) {
+  .header__button-link {
+    width: 244px;
+    height: 60px;
+    margin: 0px auto 30px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__button-link {
+    max-width: 320px;
+    height: 60px;
+    align-self: center;
+  }
+}

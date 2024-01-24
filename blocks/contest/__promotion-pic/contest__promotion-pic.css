@@ -1,0 +1,15 @@
+.contest__promotion-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 560px) {
+  .contest__promotion-pic {
+    width: 32px;
+    height: 32px;
+    margin: 6px 0px 143px 12px;
+    z-index: 2;
+  }
+}

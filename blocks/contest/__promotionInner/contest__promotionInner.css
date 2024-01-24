@@ -1,0 +1,31 @@
+.contest__promotionInner {
+  width: 132px;
+  height: 132px;
+  background: url("/images/Vector.svg") no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotate 8s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .contest__promotionInner {
+    background-image: url("/images/Vector-mobile.svg");
+    background-position: center;
+    background-size: cover;
+    width: 62px;
+    height: 62px;
+    margin: 6px 0px 143px 12px;
+    z-index: 2;
+  }
+}

@@ -1,0 +1,12 @@
+.buyGame__subtitle {
+  width: 224px;
+  height: 28px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 480px) {
+  .buyGame__subtitle {
+    width: 187px;
+    height: 23px;
+  }
+}

@@ -1,0 +1,16 @@
+.buyGame__platformText {
+  width: 255px;
+  height: 28.15px;
+  color: #52bedc;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+}
+@media screen and (max-width: 480px) {
+  .buyGame__platformText {
+    font-size: 20px;
+  }
+}

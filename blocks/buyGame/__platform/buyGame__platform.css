@@ -1,0 +1,23 @@
+.buyGame__platform {
+  display: flex;
+  flex-direction: column;
+  gap: 24.85px;
+  max-width: 319px;
+  height: 186px;
+  margin: 0px 0px 70px 32px;
+}
+
+@media screen and (max-width: 722px) {
+  .buyGame__platform {
+    margin: 0px 0px 70px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .buyGame__platform {
+    max-width: 100%;
+    height: auto;
+    margin: 0px 12px 71px;
+    gap: 25.85px;
+  }
+}

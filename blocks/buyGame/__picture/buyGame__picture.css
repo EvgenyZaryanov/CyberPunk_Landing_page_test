@@ -1,0 +1,33 @@
+.buyGame__picture {
+  display: flex;
+  width: 944px;
+  height: 717px;
+  margin: 0px;
+  background-image: url(../../../images/buy-game-pic.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* outline: 1px solid red; */
+}
+@media screen and (max-width: 1024px) {
+  .buyGame__picture {
+    width: 332px;
+    height: 717px;
+    background-image: url(../../../images/buy-game-pic-1024.png);
+  }
+}
+@media screen and (max-width: 722px) {
+  .buyGame__picture {
+    background-image: url(../../../images/buy-game-pic.png);
+    background-size: cover;
+    width: 100%;
+    height: 198px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .buyGame__picture {
+    background-image: url(../../../images/buy-game-pic.png);
+    background-size: cover;
+    height: 198px;
+  }
+}

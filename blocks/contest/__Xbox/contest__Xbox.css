@@ -1,0 +1,41 @@
+.contest__Xbox {
+  display: flex;
+  width: 460px;
+  height: 456px;
+  margin: 0px;
+  background-image: url(../../../../images/promoX-box.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+@media screen and (max-width: 850px) {
+  .contest__Xbox {
+    width: 360px;
+    height: 356px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .contest__Xbox {
+    width: 300px;
+    height: 296px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .contest__Xbox {
+    flex-direction: row;
+    width: 132px;
+    height: 131px;
+    z-index: 0;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contest__Xbox {
+    margin-right: 10px;
+  }
+}

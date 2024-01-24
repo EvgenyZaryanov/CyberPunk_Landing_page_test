@@ -15,15 +15,21 @@
     margin: 0px 0px 25px 36px;
   }
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 740px) {
   .contest__promotion-title {
-    width: 296px;
-    height: 31px;
-    font-size: 28px;
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .contest__promotion-title {
+    max-width: 296px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
     margin: 0px auto 25px;
-    align-self: start;
   }
 }

@@ -1,0 +1,29 @@
+.buyGame__info {
+  max-width: 976px;
+  width: 100%;
+  background: #000;
+}
+
+@media screen and (max-width: 1024px) {
+  .buyGame__info {
+    max-width: 692px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 722px) {
+  .buyGame__info {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .buyGame__info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 296px;
+    width: 100%;
+    margin: 0px;
+  }
+}

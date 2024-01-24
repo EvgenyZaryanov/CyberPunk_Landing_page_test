@@ -1,0 +1,32 @@
+.hpInfo__block2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 624px;
+  margin: 70px 0px 70px 0px;
+  /* outline: 1px solid red; */
+}
+
+@media screen and (max-width: 1300px) {
+  .hpInfo__block2 {
+    margin: 70px 36px 70px 0px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .hpInfo__block2 {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .hpInfo__block2 {
+    margin: 0px auto 70px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hpInfo__block2 {
+    width: 90%;
+    margin: 0px 0px 70px 12px;
+  }
+}

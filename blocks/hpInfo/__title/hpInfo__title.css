@@ -1,0 +1,24 @@
+.hpInfo__title {
+  max-width: 560px;
+  color: #000;
+  font-family: Archangelsk;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px 0px 25px 0px;
+}
+
+@media screen and (max-width: 960px) {
+  .hpInfo__title {
+    max-width: 960px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hpInfo__title {
+    max-width: 320px;
+    margin: 0px auto 25px;
+  }
+}

@@ -1,0 +1,32 @@
+.hpInfo__logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  max-width: 624px;
+  margin: 0px;
+}
+@media screen and (max-width: 1300px) {
+  .hpInfo__logos {
+    flex-direction: column;
+    max-width: 320px;
+    align-items: center;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .hpInfo__logos {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .hpInfo__logos {
+    max-width: 660px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0px;
+  }
+}
