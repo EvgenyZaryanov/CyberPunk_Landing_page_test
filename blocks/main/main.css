@@ -1,4 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
+  background-color: white;
+  border: none;
+  outline: none;
 }

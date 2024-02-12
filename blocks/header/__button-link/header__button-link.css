@@ -5,7 +5,7 @@
   text-decoration: none;
   width: 272px;
   height: 78px;
-  margin: 0px 0px 70px 70px;
+  margin: 0px auto 50px auto;
   padding: 0px;
   border: none;
   outline: none;
@@ -23,7 +23,13 @@
 .header__button-link:hover {
   transform: scale(0.9);
 }
-
+@media screen and (max-width: 1200px) {
+  .header__button-link {
+    width: 200px;
+    height: 60px;
+    margin: 0px auto 30px;
+  }
+}
 @media screen and (max-width: 560px) {
   .header__button-link {
     width: 244px;

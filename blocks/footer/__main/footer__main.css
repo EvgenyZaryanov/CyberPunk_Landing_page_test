@@ -8,6 +8,7 @@
   margin: 0px auto;
   align-self: center;
   justify-self: center;
+  background-color: white;
 }
 
 @media screen and (max-width: 800px) {

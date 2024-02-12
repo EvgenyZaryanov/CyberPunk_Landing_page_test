@@ -5,15 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Cyberpunk</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="./pages/index.css" />
     <link
       rel="shortcut icon"
-      href="./images/site-icon.png"
+      href="/images/site-icon.png"
       type="image/x-icon"
     />
   </head>
   <body class="page">
     <header class="header">
+      <div class="blockSlider" id="blockSlider">
+        <div class="fullArea">
+          <div class="imagesArea">
+            <img
+              class="imageSlider"
+              src="/images/header-cover.jpg"
+              alt="обложка игры"
+            />
+            <img
+              class="imageSlider"
+              src="/images/header-cover2.jpg"
+              alt="обложка игры"
+            />
+            <img
+              class="imageSlider"
+              src="/images/header-cover3.jpg"
+              alt="обложка игры"
+            />
+          </div>
+          <div class="pointsAreaSize">
+            <span class="point"></span>
+            <span class="point"></span>
+            <span class="point"></span>
+          </div>
+          <div class="btnAreaSize">
+            <div class="blockArrow" id="leftBtn">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </div>
+            <div class="blockArrow" id="rightBtn">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="header__navigation">
         <img
           class="header__logo"
@@ -368,5 +406,6 @@
         <p class="footer__copyright-author">© 2023 Evgeny-Zaryanov</p>
       </div>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>

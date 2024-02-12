@@ -1,9 +1,8 @@
 .header__info {
   width: 1280px;
   display: flex;
-  justify-self: center;
   margin: 0px auto;
-  z-index: 1;
+  z-index: 5;
 }
 
 @media screen and (max-width: 1400px) {

@@ -1,13 +1,17 @@
 .header__title {
   margin: 70px 70px 25px 70px;
   color: #000;
-  font-size: 62px;
+  font-size: 30px;
+  align-self: center;
+  justify-self: center;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-align: center;
+  margin: 30px auto 35px;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1200px) {
   .header__title {
     font-size: 30px;
     align-self: center;

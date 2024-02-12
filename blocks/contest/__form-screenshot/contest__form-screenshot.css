@@ -1,6 +1,5 @@
 .contest__form-screenshot {
   display: flex;
-  width: 186px;
   height: 21px;
   margin: 0px;
   background: black;
@@ -25,7 +24,6 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    width: 166px;
     height: 19px;
   }
 }
